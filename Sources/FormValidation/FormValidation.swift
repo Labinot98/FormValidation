@@ -13,7 +13,7 @@ public class FormValidation: FormValidationProtocol {
     public var fields: [UITextField]
     public var handler: () -> Void
     
-    init(button: UIButton, fields: [UITextField], handler: @escaping () -> Void) {
+    public init(button: UIButton, fields: [UITextField], handler: @escaping () -> Void) {
         self.button = button
         self.fields = fields
         self.handler = handler
