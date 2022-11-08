@@ -7,11 +7,11 @@ public protocol FormValidationProtocol: AnyObject {
     var handler: () -> Void { get set }
 }
 
-class FormValidation: FormValidationProtocol {
+public class FormValidation: FormValidationProtocol {
 
-    var button: UIButton
-    var fields: [UITextField]
-    var handler: () -> Void
+    public var button: UIButton
+    public var fields: [UITextField]
+    public var handler: () -> Void
     
     init(button: UIButton, fields: [UITextField], handler: @escaping () -> Void) {
         self.button = button
