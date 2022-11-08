@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
- protocol FormValidationProtocol: AnyObject {
+public protocol FormValidationProtocol: AnyObject {
     var button: UIButton { get set }
     var fields: [UITextField] { get set }
     var handler: () -> Void { get set }
