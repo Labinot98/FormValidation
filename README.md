@@ -2,7 +2,7 @@
 
 ## Installation
 
-To install this package, import `https://github.com/Labinot98/FormValidation.git` in SPM.
+To install this package, import `https://github.com/Labinot98/FormValidation` in SPM.
 
 ## Usage example
 
