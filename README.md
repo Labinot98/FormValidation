@@ -23,8 +23,10 @@ class RegisterViewController: UIViewController {
             formValidationDelegate = FormValidation( 
                                             button: signUpButton,
                                             fields: [
-                                             fullNameTextField, lastNameTextField,
-                                            emailAddressTextField, passwordTextField
+                                             fullNameTextField, 
+                                             lastNameTextField,
+                                             emailAddressTextField, 
+                                             passwordTextField
                                             ],
                                             handler: onSubmit
                                         )
